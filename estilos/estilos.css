@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:ital,wght@0,700;1,300&effect=fire-animation&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500&family=Bungee+Shade&display=swap");
+
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+body {
+  background: -webkit-linear-gradient(
+      315deg,
+      hsla(12, 98%, 44%, 1) 0%,
+      hsla(354, 93%, 22%, 1) 60%
+    )
+    top fixed;
+}
+
+.navBar {
+  margin-left: 12%;
+  margin-top: -6%;
+  width: 22%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-top: 10px;
+  padding-left: 5%;
+  border-radius: 10px;
+}
+
+.imgInicio {
+  width: 120px;
+  margin-top: 12px;
+  margin-left: 4%;
+}
+
+.option {
+  border-radius: 20px;
+  margin-left: 20%;
+  font-family: "Atma", cursive;
+  font-weight: 500;
+  color: #d89e0b;
+  cursor: pointer;
+  font-size: 32px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.option:hover {
+  -webkit-animation: shadow-drop-center 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  color: #eeae0c;
+  font-weight: 400;
+  padding-top: -10px;
+}
+
+.imgF {
+  margin-left: -2%;
+}
