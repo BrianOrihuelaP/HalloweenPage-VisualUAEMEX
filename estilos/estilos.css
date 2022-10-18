@@ -53,8 +53,8 @@ body {
 
 .navBar {
   margin-left: 12%;
-  margin-top: -6%;
-  width: 22%;
+  margin-top: -10%;
+  width: 14%;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -76,7 +76,7 @@ body {
   font-weight: 500;
   color: #d89e0b;
   cursor: pointer;
-  font-size: 32px;
+  font-size: 28px;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -104,10 +104,10 @@ a {
 }
 
 .videoSkull {
-  width: 36%;
+  width: 40%;
   border-radius: 30px;
-  margin-left: 20%;
-  margin-top: 30px;
+  margin-left: 1%;
+  margin-top: -2px;
   box-shadow: 10px 18px 16px #9d0208;
   opacity: 0.5;
 }
@@ -116,11 +116,8 @@ a {
   border: 2px #d00000 dashed;
   font-family: "Atma", cursive;
   color: #e85d04;
-  margin-top: 40px;
-  width: 60%;
-  font-size: 32px;
-  font-weight: 300;
-  margin-left: -10px;
+    margin-right: 90px;
+    font-size: 24px;
 }
 
 .text2 {
@@ -128,10 +125,10 @@ a {
   color: #e85d04;
   float: right;
   padding: 20px;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
   margin-left: 10%;
-  margin-top: -6%;
+  margin-top: 4%;
 }
 
 .welcome {
@@ -143,12 +140,11 @@ a {
 }
 
 .Movies {
-  width: 48%;
+  width: 55%;
   /* position: relative; */
   display: flexbox;
   /* border: 4px black solid; */
   color: #9e5025;
-  margin-top: 4px;
   margin-left: 36%;
 }
 
@@ -161,12 +157,12 @@ a {
   align-items: center;
   padding-top: -40px;
   margin: 0.8%;
-  border: 4px dotted rgb(160, 67, 14);
+  border: 4px dotted rgb(204, 117, 67);
   border-radius: 20px 20px;
   box-shadow: 0 0 0 2px, 0 10px 60px;
   font-size: 14px;
-  margin-left: 30px;
-  
+  margin-left: 10px;
+  object-fit: fill;
 }
 
 .box:hover {
@@ -175,7 +171,6 @@ a {
 
 .box img {
   margin-left: auto;
-  margin-top: -20px;
-  width: 190px;
-  object-fit: cover;
+  margin-top: 8px;
+  width: 150px;
 }
