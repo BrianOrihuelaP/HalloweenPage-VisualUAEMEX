@@ -81,9 +81,9 @@ body {
   padding-right: 15%;
 }
 
-a{
-    text-decoration: none;
-    font-weight: 500;
+a {
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .option:hover {
@@ -104,12 +104,12 @@ a{
 }
 
 .videoSkull {
-  width: 28%;
+  width: 36%;
   border-radius: 30px;
   margin-left: 20%;
-  margin-top: 50px;
+  margin-top: 30px;
   box-shadow: 10px 18px 16px #9d0208;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .text {
@@ -143,31 +143,39 @@ a{
 }
 
 .Movies {
-    width: 48%;
-    /* position: relative; */
-    display: flexbox;
-    /* border: 4px black solid; */
-    color: #9e5025;
-    margin-top: 4px;
-    margin-left: 36%;
-  }
+  width: 48%;
+  /* position: relative; */
+  display: flexbox;
+  /* border: 4px black solid; */
+  color: #9e5025;
+  margin-top: 4px;
+  margin-left: 36%;
+}
 
 .box {
-    width: 18%;
-    height: 220px;
-    overflow: hidden;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    padding-top: -40px;
-    margin: 0.8%;
-    border: 4px dotted rgb(160, 67, 14);
-    border-radius: 20px 20px;
-    box-shadow: 0 0 0 2px, 0 10px 60px;
-    font-size: 14px;
-    margin-left: 30px;
-  }
+  width: 18%;
+  height: 220px;
+  overflow: hidden;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-top: -40px;
+  margin: 0.8%;
+  border: 4px dotted rgb(160, 67, 14);
+  border-radius: 20px 20px;
+  box-shadow: 0 0 0 2px, 0 10px 60px;
+  font-size: 14px;
+  margin-left: 30px;
+  
+}
 
-.box:hover{
-    width: 22%;
+.box:hover {
+  width: 20%;
+}
+
+.box img {
+  margin-left: auto;
+  margin-top: -20px;
+  width: 190px;
+  object-fit: cover;
 }
