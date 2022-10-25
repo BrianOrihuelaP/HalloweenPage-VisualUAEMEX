@@ -2,7 +2,7 @@
 function play() {
     // en esta funcion creamos una variable la cual sera de tipo audio
     let playMe
-    playMe = new Audio('../audio/screamW1.mp3'); //cargamos el archivo de audio
+    playMe = new Audio('/audio/screamW1.mp3'); //cargamos el archivo de audio
     playMe.preload = "auto";
     playMe.volume = .7;
     playMe.play();
@@ -12,9 +12,9 @@ function play() {
 
 function play2() {
     let playMe
-    playMe = new Audio('../audio/KidFX.mp3');
+    playMe = new Audio('/audio/KidFX.mp3');
     playMe.preload = "auto";
-    playMe.volume = .8;
+    playMe.volume = .9;
     playMe.play();
     console.log("play function");
     // Aqui recargamos hacia otra pagina
