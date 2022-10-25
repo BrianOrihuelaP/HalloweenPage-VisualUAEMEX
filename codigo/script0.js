@@ -22,11 +22,11 @@ function play2() {
 }
 
 function redirigir2() {
-    window.location.href = "../moviesA.html";
+    window.location.href = "/moviesA.html";
 }
 
 function redirigir() {
-    window.location.href = "../movies.html";
+    window.location.href = "/movies.html";
 }
 
 
