@@ -22,10 +22,12 @@ function play2() {
 }
 
 function redirigir2() {
+    console.log("reedirigiendo a moviesA");
     window.location.href = "./moviesA.html";
 }
 
 function redirigir() {
+    console.log("reedirigiendo a movies");
     window.location.href = "./movies.html";
 }
 
